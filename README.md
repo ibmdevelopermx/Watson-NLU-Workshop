@@ -7,6 +7,33 @@ En este taller aprenderas a:
 - Realizar un análisis de texto para sacar palabras clave, sentimientos y emociones
 - Mostrar la información de manera gráfica para entender mejor los datos.
 
+## Pre-requisitos
+TO-DO: Checar enlaces y ver si se ponen los pasos para crear la cuenta de cloud pak o solo se asume que ya la tiene
+- Tener una cuenta de IBM Cloud
+- Tener instalado Cloud Pak for Data as a Service
+
+//TODO: REVISAR SI ESTAS SECCIONES DEBEN ESTAR INCLUÍDAS O NO
+## Cupones para profesores y estudiantes:
+- Acceder al portal de IBM Academic Initiative y seleccionar la opción "Register now" si aun no tienes cuenta.
+- Realizar el registro correspondiente utilizando la cuenta de correo académica y confirma tu cuenta.
+- Despues de confirmar tu cuenta, y con la sesion iniciada en IBM Academic Initiative, en la parte de "Most Popular Topics covered", encontraremos IBM Cloud y damos clic en "Learn more".
+- Bajamos de la pagina hasta encontrar "Software". Le damos clic, nos dara un apartado que se llama "Request Feature Code".
+- Nos dara nuestro codigo. Lo copiamos y lo llevamos a IBM Cloud.
+
+## Cargar créditos en IBM Cloud:
+- En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
+- De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
+- Bajamos un poco hasta encontrar "Subscription and feature codes"/"Codigos de suscripción y carateristicas".
+- Da clic en "Apply code"/"Aplicar codigo".
+- Ingresamos el codigo y clic en "Apply"/"Aplicar".
+
+## Contenido 
+TODO: Agregar enlaces para que nos lleve a la sección correspondiente
+
+1. Crear una instancia de Watson NLU
+2. Demostración de Watson NLU y Análisis de Sentimientos
+3. Cargar y Ejecutar un cuaderno
+
 ## Crear una instancia de Watson NLU
 1. Haga click en el menú de navegación en la esquina superior izquierda de su instancia de Cloud Pak for Data y haga click en Services -> Services catalog
 
