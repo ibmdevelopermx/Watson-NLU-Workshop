@@ -17,7 +17,6 @@ En este taller aprenderas a:
 * Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD].
 * Cuenta en [GitHub][url-github-join].
 * Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop].
-* Instalar [NodeJS][url-node].
 * Utilizar safari, chrome, firefox, edge.
 * "Fork" y "Clone" a este repositorio. 
 
