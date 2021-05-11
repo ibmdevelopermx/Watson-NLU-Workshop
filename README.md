@@ -7,12 +7,44 @@ En este taller aprenderas a:
 - Realizar un análisis de texto para sacar palabras clave, sentimientos y emociones
 - Mostrar la información de manera gráfica para entender mejor los datos.
 
-## Pre-requisitos
-TO-DO: Checar enlaces y ver si se ponen los pasos para crear la cuenta de cloud pak o solo se asume que ya la tiene
-- Tener una cuenta de IBM Cloud
-- Tener instalado Cloud Pak for Data as a Service
+## Antes de empezar te recomendamos:
+* Realizar el [PreWork](#PreWork).
+* Si eres estudiante o profesor y tienes correo institucional te recomendamos los [Cupones](#Cupones-para-profesores-y-estudiantes).
+* Si tienes algun codigo promocional te decimos como [Aplicarlos](#Cargar-créditos-en-IBM-Cloud).
 
-//TODO: REVISAR SI ESTAS SECCIONES DEBEN ESTAR INCLUÍDAS O NO
+## PreWork
+* Cuenta de [IBM Cloud][url-IBMCLOUD].
+* Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD].
+* Cuenta en [GitHub][url-github-join].
+* Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop].
+* Instalar [NodeJS][url-node].
+* Utilizar safari, chrome, firefox, edge.
+* "Fork" y "Clone" a este repositorio. 
+
+## Cupones para profesores y estudiantes:
+
+* Acceder al portal de [IBM Academic Initiative][url-academic] y seleccionar la opción "Register now" si aun no tienes cuenta.
+* Realizar el registro correspondiente utilizando la cuenta de correo académica y confirma tu cuenta.
+* Despues de confirmar tu cuenta, y con la sesion iniciada en IBM Academic Initiative, en la parte de "Most Popular Topics covered", encontraremos **IBM Cloud** y damos click en "Learn more".
+* Bajamos de la pagina hasta encontrar "Software". Le damos click, nos dara un apartado que se llama "Request Feature Code".
+* Nos dara nuestro codigo. Lo copiamos y lo llevamos a **IBM Cloud**.
+
+## Cargar créditos en IBM Cloud:
+
+* En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
+* De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
+* Bajamos un poco hasta encontrar "Subscription and feature codes"/"Codigos de suscripción y carateristicas".
+* Da click en "Apply code"/"Aplicar codigo".
+* Ingresamos el codigo y click en "Apply"/"Aplicar".
+
+[url-academic]: https://my15.digitalexperience.ibm.com/b73a5759-c6a6-4033-ab6b-d9d4f9a6d65b/dxsites/151914d1-03d2-48fe-97d9-d21166848e65/home/
+[url-IBMCLOUD]: https://cloud.ibm.com/registration
+[url-CLI-IBMCLOUD]: https://cloud.ibm.com/docs/cli/reference/ibmcloud?topic=cloud-cli-install-ibmcloud-cli
+[url-github-join]: https://github.com/join
+[url-github-cli]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[url-githubdesktop]: https://desktop.github.com/
+[url-node]: https://nodejs.org/es/download/
+
 ## Cupones para profesores y estudiantes:
 - Acceder al portal de IBM Academic Initiative y seleccionar la opción "Register now" si aun no tienes cuenta.
 - Realizar el registro correspondiente utilizando la cuenta de correo académica y confirma tu cuenta.
@@ -28,24 +60,26 @@ TO-DO: Checar enlaces y ver si se ponen los pasos para crear la cuenta de cloud 
 - Ingresamos el codigo y clic en "Apply"/"Aplicar".
 
 ## Contenido 
-TODO: Agregar enlaces para que nos lleve a la sección correspondiente
 
-1. Crear una instancia de Watson NLU
+
+1. Crear una instancia de [Watson NLU][url-nlu]
 2. Demostración de Watson NLU y Análisis de Sentimientos
 3. Cargar y Ejecutar un cuaderno
+
+[url-nlu]: https://cloud.ibm.com/catalog/services/natural-language-understanding
 
 ## Crear una instancia de Watson NLU
 1. Haga click en el menú de navegación en la esquina superior izquierda de su instancia de Cloud Pak for Data y haga click en Services -> Services catalog
 
-//Falta imagen
+![Servicios](images/Servicios.PNG)
 
-2. En la barra de busqueda ponga "Natural Language Understanding" y de click en Natural Langua Understanding:
+2. En la barra de busqueda ponga "Natural Language Understanding" y de click en Natural Language Understanding:
 
 ![Find service on the catalog](images/1-nlu-find-in-catalog.png)
 
 3. Escoga el plan gratuito Lite (solo puede tener una instancia Lite en su cuenta, si ya cuenta con otra tendrá que borrarla para que esta sea nueva o bien pagar por tener otra instancia). Pongale un nombre con el que pueda identificar la instancia:
 
-//Falta imagen
+![Plan_lite](images/Plan_Lite.PNG)
 
 4. Usted podrá ver su nueva instancia de NLU en la página de "Services instances". De click en el nombre para abrir la página de su nueva instancia:
 
