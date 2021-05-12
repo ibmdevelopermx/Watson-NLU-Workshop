@@ -35,7 +35,7 @@ Si no cuenta con una cuenta de IBM Cloud o con la configuración del proyecto de
 
 En Cloud Pak for Data, utilizamos el concepto de proyecto para recopilar/organizar los recursos utilizados para lograr un objetivo en particular (recursos para construir una solución a un problema). Los recursos de su proyecto pueden incluir datos, colaboradores y activos analíticos como cuadernos y modelos, etc.
 
-- Una vez que esté en Cloud Pak for Data. Haga clic en el menú de navegación (☰) en la parte superior izquierda, expanda Proyectos y haga clic en el enlace "View all projects"
+- Una vez que esté en [Cloud Pak for Data](https://dataplatform.cloud.ibm.com/). Haga clic en el menú de navegación (☰) en la parte superior izquierda, expanda Proyectos y haga clic en el enlace "View all projects"
 - 
   ![menu-project](images/3-menu-projects.png)
 
@@ -154,8 +154,6 @@ Ahora que ha visto como trabaja NLU y el Análisis de Sentimientos, usaremos las
 ## Cargar y Ejecutar un cuaderno
 
 1. Vaya a su proyecto en Cloud Pak for Data 
-
-**falta imagen
 
 2. En su proyecto, de click en "Add to project" y escoja "Notebook":
 
