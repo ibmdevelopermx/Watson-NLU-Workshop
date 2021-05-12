@@ -13,12 +13,55 @@ En este taller aprenderas a:
 * Si tienes algun codigo promocional te decimos como [Aplicarlos](#Cargar-créditos-en-IBM-Cloud).
 
 ## PreWork
-* Cuenta de [IBM Cloud][url-IBMCLOUD].
-* Instalar [CLI de IBM Cloud][url-CLI-IBMCLOUD].
-* Cuenta en [GitHub][url-github-join].
-* Instalar [CLI de GitHub][url-github-cli] o instalar [GitHub Desktop][url-githubdesktop].
-* Utilizar safari, chrome, firefox, edge.
-* "Fork" y "Clone" a este repositorio. 
+Si no cuenta con una cuenta de IBM Cloud o con la configuración del proyecto de Cloud Pak for Data realice los siguientes pasos:
+1. Ingresar a IBM Cloud Pak fro Data as a Service
+
+- Inicie un navegador web y navegue hasta IBM Cloud Pak for Data **agregar link a ibm cloud pak for data
+- Puede dejar la región preseleccionada o seleccionar la región más cercana a usted
+- Inicie sesión con su cuenta de IBM Cloud o puede crear una nueva cuenta 
+- Si no tiene un IBMid, ingrese su dirección de correo electrónico y acepte la casilla de verificación de los términos en la sección "Create new account" de IBM Cloud. Luego haga clic en el botón "Next" para completar el proceso de creación de una nueva cuenta.
+- Si ya tiene una cuenta, haga clic en el enlace Iniciar sesión con su IBMid. 
+  ->Nota: Si es un usuario recurrente y tiene servicios de Watson en una región diferente a la preseleccionada, verá un mensaje de error que le indica que seleccione esa región en su lugar. 
+  
+[image]
+
+- Los servicios necesarios para IBM Cloud Pak for Data se le proporcionarán automáticamente. Una vez que vea un mensaje que dice que las aplicaciones están listas para usarse, haga clic en "Go to IBM Cloud Pak for Data".
+
+[imagen]
+
+2. Project Setup
+En Cloud Pak for Data, utilizamos el concepto de proyecto para recopilar/organizar los recursos utilizados para lograr un objetivo en particular (recursos para construir una solución a un problema). Los recursos de su proyecto pueden incluir datos, colaboradores y activos analíticos como cuadernos y modelos, etc.
+
+- Una vez que esté en Cloud Pak for Data. Haga clic en el menú de navegación (☰) en la parte superior izquierda, expanda Proyectos y haga clic en el enlace "View all projects"
+[imagen]
+
+- Haga clic en el botón "New Project" en la parte superior. Nota: Si ya tiene proyectos existentes, su pantalla se verá diferente a la captura de pantalla a continuación. En ese caso, haga clic en el botón "New Project+" en la parte superior derecha.
+[imagen]
+
+- Haga click en "Create an empty project"
+[image]
+
+- Asigne al proyecto un nombre y una descripción (opcional). También debe proporcionar una instancia de almacenamiento de objetos para este proyecto. Si no ha creado previamente una instancia de Cloud Object Storage en su cuenta de IBM Cloud, puede crear una ahora haciendo clic en "Add". 
+  -Nota: Si tiene un servicio de almacenamiento existente, selecciónelo de la lista desplegable y haga clic en el botón "Create".
+
+[imagen]
+
+- Se abrirá una nueva pestaña, donde puede crear el "Cloud Object Storage". De forma predeterminada, se seleccionará un plan Lite (gratuito). Desplácese hacia abajo y actualice el nombre de su servicio de almacenamiento de objetos en la nube si lo desea y haga clic en "Create".
+[imagen]
+
+- La pestaña del navegador se cerrará automáticamente cuando se haya creado la instancia de Cloud Object Storage. De vuelta en IBM Cloud Pak for Data, haga clic en "Refresh".
+[image]
+
+- La instancia de Cloud Object Storage recién creada ahora se mostrará en "Storage". Haga clic en "Create" para terminar de crear el proyecto.
+
+[imagen]
+
+- Una vez que el proyecto se haya creado con éxito, le llevará a la página de descripción general del proyecto (Nota: es posible que se le presente una ventana emergente de recorrido del proyecto, continúe y ciérrela).
+
+[imagen]
+
+Una vez hechos los pasos anteriores puede continuar con el workshop.
+
 
 ## Cupones para profesores y estudiantes:
 
@@ -44,19 +87,6 @@ En este taller aprenderas a:
 [url-githubdesktop]: https://desktop.github.com/
 [url-node]: https://nodejs.org/es/download/
 
-## Cupones para profesores y estudiantes:
-- Acceder al portal de IBM Academic Initiative y seleccionar la opción "Register now" si aun no tienes cuenta.
-- Realizar el registro correspondiente utilizando la cuenta de correo académica y confirma tu cuenta.
-- Despues de confirmar tu cuenta, y con la sesion iniciada en IBM Academic Initiative, en la parte de "Most Popular Topics covered", encontraremos IBM Cloud y damos clic en "Learn more".
-- Bajamos de la pagina hasta encontrar "Software". Le damos clic, nos dara un apartado que se llama "Request Feature Code".
-- Nos dara nuestro codigo. Lo copiamos y lo llevamos a IBM Cloud.
-
-## Cargar créditos en IBM Cloud:
-- En la parte superior derecha, buscaremos la parte de "MANAGE"/"GESTIONAR", nos desplegara una lista y seleccionaremos "Account"/"Cuenta".
-- De lado izquierdo, tendremos una opción "Account settings"/"Configuracion de cuenta".
-- Bajamos un poco hasta encontrar "Subscription and feature codes"/"Codigos de suscripción y carateristicas".
-- Da clic en "Apply code"/"Aplicar codigo".
-- Ingresamos el codigo y clic en "Apply"/"Aplicar".
 
 ## Contenido 
 
