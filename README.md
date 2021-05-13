@@ -45,8 +45,6 @@ En este taller aprenderas a:
 
 ![pagina-principal](images/7-pagina-principal-proyecto.png)
 
-Si no cuenta con una cuenta de IBM Cloud o con la configuración del proyecto de Cloud Pak for Data realice los siguientes pasos:
-
 Una vez hechos los pasos anteriores puede continuar con el workshop.
 
 ## Cupones para profesores y estudiantes:
