@@ -18,7 +18,7 @@ Si no cuenta con una cuenta de IBM Cloud o con la configuración del proyecto de
 
 ### 1. Ingresar a IBM Cloud Pak fro Data as a Service
 
-- Inicie un navegador web y navegue hasta IBM Cloud Pak for Data **agregar link a ibm cloud pak for data
+- Inicie un navegador web y navegue hasta IBM [Cloud Pak for Data](https://dataplatform.cloud.ibm.com/) 
 - Puede dejar la región preseleccionada o seleccionar la región más cercana a usted
 - Inicie sesión con su cuenta de IBM Cloud o puede crear una nueva cuenta 
 - Si no tiene un IBMid, ingrese su dirección de correo electrónico y acepte la casilla de verificación de los términos en la sección "Create new account" de IBM Cloud. Luego haga clic en el botón "Next" para completar el proceso de creación de una nueva cuenta.
