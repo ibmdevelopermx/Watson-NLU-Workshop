@@ -14,62 +14,40 @@ En este taller aprenderas a:
 
 ## PreWork
 
+### Crear una instancia de Watson Studio
+
+1. Ingresar a su cuenta de IBM Cloud. Si no cuenta con una ingresar a [este link](https://cloud.ibm.com/registration) para obtener una cuenta gratuita. Una vez finalizados regresar a este tutorial.
+2. En la barra de busqueda intresar "Watson Studio" y dar click en el Servicio.
+
+![buscar-instancia](images/1-search watson studio.png)
+
+3. Seleccionar una región, elegir el plan **Lite** y asignar un nombre a la instancia. Una vez realizado lo anterior dar click en **Crear**
+
+![crear-instancia](images/2-watson-create.png)
+
+4. Cuando se cree la instancia, el navegador lo llevará a la "pantalla principal" del servicio. Dar click en **Iniciación**
+
+![iniciar-instancia](images/3-iniciar-instancia.png)
+
+5. Se nos va a redirigir a la página principal donde daremos click en **Crear un proyecto**
+
+ ![crear-instancia](images/4-click-en-crear.png)
+ 
+6. Dar click en **Crear un proyecto vacío**
+
+![crear-proyecto](images/5-crear-nuevo-proyecto.png)
+
+7. Asignar un nombre y una descripción opcional. Automáticamente se nos va a provisionar una instancia de Cloud Object Storage para almacenamiento. Dar click en **Crear**
+
+![nuevo-proyecto](images/6-crear-proyecto.png)
+
+8. Ahora nos llevará a la instancia creada. Dejarla abierta porque se necesitará posteriormente.
+
+![pagina-principal](images/7-pagina-principal-proyecto.png)
+
 Si no cuenta con una cuenta de IBM Cloud o con la configuración del proyecto de Cloud Pak for Data realice los siguientes pasos:
 
-### 1. Ingresar a IBM Cloud Pak fro Data as a Service
-
-- Inicie un navegador web y navegue hasta IBM [Cloud Pak for Data](https://dataplatform.cloud.ibm.com/) 
-- Puede dejar la región preseleccionada o seleccionar la región más cercana a usted
-- Inicie sesión con su cuenta de IBM Cloud o puede crear una nueva cuenta 
-- Si no tiene un IBMid, ingrese su dirección de correo electrónico y acepte la casilla de verificación de los términos en la sección "Create new account" de IBM Cloud. Luego haga clic en el botón "Next" para completar el proceso de creación de una nueva cuenta.
-- Si ya tiene una cuenta, haga clic en el enlace Iniciar sesión con su IBMid. 
-  ->Nota: Si es un usuario recurrente y tiene servicios de Watson en una región diferente a la preseleccionada, verá un mensaje de error que le indica que seleccione esa región en su lugar. 
-  
-  ![Sign-up-page](images/1-new-signup-page.png)
-
-- Los servicios necesarios para IBM Cloud Pak for Data se le proporcionarán automáticamente. Una vez que vea un mensaje que dice que las aplicaciones están listas para usarse, haga clic en "Go to IBM Cloud Pak for Data".
-
-  ![cpdaas-ready](images/2-cpdaas-ready.png)
-
-### 2. Project Setup
-
-En Cloud Pak for Data, utilizamos el concepto de proyecto para recopilar/organizar los recursos utilizados para lograr un objetivo en particular (recursos para construir una solución a un problema). Los recursos de su proyecto pueden incluir datos, colaboradores y activos analíticos como cuadernos y modelos, etc.
-
-- Una vez que esté en [Cloud Pak for Data](https://dataplatform.cloud.ibm.com/). Haga clic en el menú de navegación (☰) en la parte superior izquierda, expanda Proyectos y haga clic en el enlace "View all projects"
-- 
-  ![menu-project](images/3-menu-projects.png)
-
-- Haga clic en el botón "New Project" en la parte superior. Nota: Si ya tiene proyectos existentes, su pantalla se verá diferente a la captura de pantalla a continuación. En ese caso, haga clic en el botón "New Project+" en la parte superior derecha.
-- 
-  ![new-project](images/4-cpd-new-project.png)
-
-- Haga click en "Create an empty project"
-
-  ![empty-project](images/5-cpd-create-empty-project.png)
-
-- Asigne al proyecto un nombre y una descripción (opcional). También debe proporcionar una instancia de almacenamiento de objetos para este proyecto. Si no ha creado previamente una instancia de Cloud Object Storage en su cuenta de IBM Cloud, puede crear una ahora haciendo clic en "Add". 
-  -Nota: Si tiene un servicio de almacenamiento existente, selecciónelo de la lista desplegable y haga clic en el botón "Create".
-
-  ![project-name](images/6-cpd-project-name.png)
-
-- Se abrirá una nueva pestaña, donde puede crear el "Cloud Object Storage". De forma predeterminada, se seleccionará un plan Lite (gratuito). Desplácese hacia abajo y actualice el nombre de su servicio de almacenamiento de objetos en la nube si lo desea y haga clic en "Create".
-
-  ![cos-instance](images/7-create-cos-instance.png)
-
-- La pestaña del navegador se cerrará automáticamente cuando se haya creado la instancia de Cloud Object Storage. De vuelta en IBM Cloud Pak for Data, haga clic en "Refresh".
-
-  ![refresh-cos](images/8-refresh-cos.png)
-
-- La instancia de Cloud Object Storage recién creada ahora se mostrará en "Storage". Haga clic en "Create" para terminar de crear el proyecto.
-
-  ![create-project](images/9-create-project.png)
-
-- Una vez que el proyecto se haya creado con éxito, le llevará a la página de descripción general del proyecto (Nota: es posible que se le presente una ventana emergente de recorrido del proyecto, continúe y ciérrela).
-
-  ![project-success](images/10-project-create-success.png)
-
 Una vez hechos los pasos anteriores puede continuar con el workshop.
-
 
 ## Cupones para profesores y estudiantes:
 
