@@ -16,10 +16,10 @@ En este taller aprenderas a:
 
 ### Crear una instancia de Watson Studio
 
-1. Ingresar a su cuenta de IBM Cloud. Si no cuenta con una ingresar a [este link](https://cloud.ibm.com/registration) para obtener una cuenta gratuita. Una vez finalizados regresar a este tutorial.
+1. Ingresar a su cuenta de IBM Cloud. Si no cuenta con una ingresar a [este link](https://cloud.ibm.com/registration) para obtener una cuenta gratuita. Una vez creada, regresar a este tutorial.
 2. En la barra de busqueda intresar "Watson Studio" y dar click en el Servicio.
 
-![buscar-instancia](images/1-search watson studio.png)
+![crear-instancia](images/1-search-watson-studio.png)
 
 3. Seleccionar una región, elegir el plan **Lite** y asignar un nombre a la instancia. Una vez realizado lo anterior dar click en **Crear**
 
